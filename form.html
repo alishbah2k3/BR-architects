@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+
+    <style>
+        body{
+            background-image: url(img.jpg);
+            background-repeat: no repeat;
+            background-size: cover;
+        }
+        h1{
+            font-size:x-large;
+        }
+        button{
+            color: #e9e9ed;
+            font-size: larger;
+            background-color: #1b1d51 ;
+            border: 2px solid #000230;
+        }
+    </style>
+</head>
+
+<body>
+   <h1>CONTACT</h1>
+   <h2>Lets get in touch and talk about your next project</h2>
+    <form action="php">
+        <label for="name"> Name</label>
+        <div id="name">
+            <input type="text" name="myName" id="name">
+            </div>
+            <br>
+            <div>
+                Email: <input type="email" name="myEmail">
+                </div>
+                <br>
+                <div>
+                    Contact number: <input type="number" name="myNum">
+                    </div>
+                    <br>
+                    <div>
+                        Subject: <input type="text" name="subject">
+                        </div>
+                        <br>
+                        <div>
+                            comment: <br><textarea name="myText" cols="90"
+                            rows="10"></textarea>
+                            </div>
+                            <br>
+                            <button>SEND MESSAGE</button>
+
+        </form>
+</body>
+</html>
